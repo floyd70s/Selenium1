@@ -7,7 +7,7 @@ public class Browsers {
     private WebDriver driver;
     public ChromeDriver localChrome(){
         try {
-            System.setProperty("webdriver.chrome.driver","/Users/claudioperez/Documents/programacion/chromeDriverSelenium");
+            System.setProperty("webdriver.chrome.driver","/Users/claudioperez/Documents/programacion/chromeDriverSelenium/chromedriver");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
 
